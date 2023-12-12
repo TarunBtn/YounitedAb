@@ -12,7 +12,7 @@ public class Kvk {
 
 	@SuppressWarnings("unchecked")
 	@Test
-    public void validateKvkNumber()throws Exception {
+    public void validateKvkNumber() {
 		
 		RequestSpecification request=RestAssured.given();
 		
@@ -33,8 +33,7 @@ public class Kvk {
 		
 		//String data=response.getBody().asString();
 		String data=response.asPrettyString();
-		System.out.println("Response data is: "+data);
-		Thread.sleep(1000);
+		System.out.println("Response data is: "+data);	
 		
 		
 	}
