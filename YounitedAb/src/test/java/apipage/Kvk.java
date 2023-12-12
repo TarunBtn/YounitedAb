@@ -32,7 +32,7 @@ public class Kvk {
 		Assert.assertEquals(code, 200);
 		
 		//String data=response.getBody().asString();
-		String data=response.asPrettyString();
+		//String data=response.asPrettyString();
 		System.out.println("Response data is: "+data);	
 		
 		
