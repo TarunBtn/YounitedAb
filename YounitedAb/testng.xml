@@ -6,12 +6,9 @@
       <class name="apipage.TextkrProfessionsSuggestSkills"/>
       <class name="apipage.TextkrProfnCompleteNormalized"/>
       <class name="apipage.TextkrMatchExtractDo"/>
-      <class name="apitest.TestData"/>
-      <class name="apipage.TextkrSkillsLookup"/>
-      <class name="apipage.PostData"/>
+      <class name="apipage.TextkrSkillsLookup"/>     
       <class name="apipage.TextkrCompleteNormalized"/>
       <class name="apipage.Kvk"/>
-      <class name="apipage.GetData"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
