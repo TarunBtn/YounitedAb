@@ -25,7 +25,7 @@ public class TextkrMatchExtractDo {
 	      //Adding form data to the request
 	      request.multiPart("publicURL", publicURL);
 	      // Making POST request and capturing the response
-	      Response response = request.post(baseURL);
+	      //Response response = request.post(baseURL);
 	      int statusCode=response.getStatusCode();
 	      System.out.println("status code :"+statusCode);
 	      // Extracting and printing the response body
