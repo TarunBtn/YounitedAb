@@ -48,7 +48,7 @@ public class TextkrCompleteNormalized {
 			
 			Response response=request.post("https://younited-management-payment-acc.nowonline.nl/CompleteNormalized");
 			
-			int code=response.getStatusCode();
+			//int code=response.getStatusCode();
 			System.out.println("Textkernel- Status code is: "+code);
 			
 			Assert.assertEquals(code, 200);

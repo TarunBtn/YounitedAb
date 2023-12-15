@@ -15,7 +15,7 @@ public class TextkrMatchExtractDo {
 		  // Base URL
 	      String baseURL = "https://younited-management-payment-acc.nowonline.nl/MatchExtractDo?Parsingtype=JobParsingtype";
 	      // Form data
-	      String publicURL = "https://usgmarcom.nl/vacature/senior-communicatieadviseur-lnv-(v2074765)";
+	      String publicURL = "https://usgmarcom.nl/vacature/data-driven-communicatiespecialist-haarlem-ai-(v2074905)";
 	      
 	      // Creating request specification
 	      RequestSpecification request = RestAssured.given();
