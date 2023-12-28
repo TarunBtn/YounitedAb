@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-26T14:23:15 IST" name="Default suite" finished-at="2023-12-26T14:23:16 IST" duration-ms="1599">
+  <suite started-at="2023-12-28T14:59:17 IST" name="Default suite" finished-at="2023-12-28T14:59:19 IST" duration-ms="2086">
     <groups>
     </groups>
-    <test started-at="2023-12-26T14:23:15 IST" name="Default test" finished-at="2023-12-26T14:23:16 IST" duration-ms="1599">
+    <test started-at="2023-12-28T14:59:17 IST" name="Default test" finished-at="2023-12-28T14:59:19 IST" duration-ms="2086">
       <class name="apipage.TextkrSkillsLookup">
-        <test-method signature="SkillsLookup()[pri:0, instance:apipage.TextkrSkillsLookup@4a7f959b]" started-at="2023-12-26T14:23:15 IST" name="SkillsLookup" finished-at="2023-12-26T14:23:16 IST" duration-ms="1580" status="PASS">
+        <test-method signature="SkillsLookup()[pri:0, instance:apipage.TextkrSkillsLookup@4a7f959b]" started-at="2023-12-28T14:59:17 IST" name="SkillsLookup" finished-at="2023-12-28T14:59:19 IST" duration-ms="2064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SkillsLookup -->
