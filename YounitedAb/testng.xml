@@ -3,12 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="TestAPI">
     <classes>
-      <class name="apipage.TextkrProfessionsSuggestSkills"/>
+      <class name="apipage.Kvk"/>
+      <class name="apipage.TextkrCompleteNormalized"/>
       <class name="apipage.TextkrProfnCompleteNormalized"/>
       <class name="apipage.TextkrMatchExtractDo"/>
+      <class name="apipage.TextkrProfessionsSuggestSkills"/>  
       <class name="apipage.TextkrSkillsLookup"/>     
-      <class name="apipage.TextkrCompleteNormalized"/>
-      <class name="apipage.Kvk"/>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
