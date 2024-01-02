@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-02T12:08:04 IST" name="Default suite" finished-at="2024-01-02T12:08:06 IST" duration-ms="2036">
+  <suite started-at="2024-01-02T12:46:36 IST" name="Default suite" finished-at="2024-01-02T12:46:39 IST" duration-ms="2627">
     <groups>
     </groups>
-    <test started-at="2024-01-02T12:08:04 IST" name="Default test" finished-at="2024-01-02T12:08:06 IST" duration-ms="2036">
+    <test started-at="2024-01-02T12:46:36 IST" name="Default test" finished-at="2024-01-02T12:46:39 IST" duration-ms="2627">
       <class name="apipage.KvkLive">
-        <test-method signature="validateKvkNumber()[pri:0, instance:apipage.KvkLive@4a7f959b]" started-at="2024-01-02T12:08:04 IST" name="validateKvkNumber" finished-at="2024-01-02T12:08:06 IST" duration-ms="1996" status="PASS">
+        <test-method signature="validateKvkNumber()[pri:0, instance:apipage.KvkLive@4a7f959b]" started-at="2024-01-02T12:46:36 IST" name="validateKvkNumber" finished-at="2024-01-02T12:46:39 IST" duration-ms="2582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateKvkNumber -->
