@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apipage.KvkLive">
+      <class name="apipage.Kvk">
         <methods>
           <include name="validateKvkNumber"/>
         </methods>
-      </class> <!-- apipage.KvkLive -->
+      </class> <!-- apipage.Kvk -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
