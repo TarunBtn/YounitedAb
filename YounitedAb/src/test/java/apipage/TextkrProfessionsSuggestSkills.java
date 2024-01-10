@@ -32,7 +32,7 @@ public class TextkrProfessionsSuggestSkills {
 	        // Specify the content type as JSON
 	        //request.contentType("application/json");
 			
-			Response response=request.post("https://younited-management-payment-acc.nowonline.nl/ProfessionsSuggestSkills?limit=15");
+			Response response=request.post("https://younited-management-payment-pro.nowonline.nl/ProfessionsSuggestSkills?limit=15");
 			int scode=response.getStatusCode();
 			System.out.println("Status code: "+scode);
 			Assert.assertEquals(scode, 200);

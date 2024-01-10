@@ -24,7 +24,7 @@ public class Kvk {
 		
 		request.body(json.toJSONString());
 		
-		Response response=request.post("https://younited-management-payment-acc.nowonline.nl/ValidateKvknummer");
+		Response response=request.post("https://younited-management-payment-pro.nowonline.nl/ValidateKvknummer");
 		
 		int code=response.getStatusCode();
 		System.out.println("Kvk- Status code is: "+code);

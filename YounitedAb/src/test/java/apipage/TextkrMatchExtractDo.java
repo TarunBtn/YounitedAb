@@ -13,7 +13,7 @@ public class TextkrMatchExtractDo {
 	  public void MatchExtractDo()throws Exception {
 			  
 		  // Base URL
-	      String baseURL = "https://younited-management-payment-acc.nowonline.nl/MatchExtractDo?Parsingtype=JobParsingtype";
+	      String baseURL = "https://younited-management-payment-pro.nowonline.nl/MatchExtractDo?Parsingtype=JobParsingtype";
 	      // Form data
 	      String publicURL = "https://usgmarcom.nl/vacature/adviseur-marketingcommunicatie-medior-(v2075654)";
 	      

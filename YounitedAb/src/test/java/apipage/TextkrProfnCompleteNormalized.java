@@ -29,7 +29,7 @@ public class TextkrProfnCompleteNormalized {
 			
 			//request.body(json.toJSONString());
 			
-			Response response=request.post("https://younited-management-payment-acc.nowonline.nl/CompleteNormalized");
+			Response response=request.post("https://younited-management-payment-pro.nowonline.nl/ProfessionsCompleteNormalized");
 			
 			int code=response.getStatusCode();
 			System.out.println("TextKernel- Status code is: "+code);
