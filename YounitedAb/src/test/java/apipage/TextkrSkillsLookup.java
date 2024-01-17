@@ -79,7 +79,7 @@ public class TextkrSkillsLookup {
 			request.body(jsonString);
 			
 			Response resp=request.post("https://younited-management-payment-pro.nowonline.nl/SkillsLookup");
-			int scode=resp.getStatusCode();
+			//int scode=resp.getStatusCode();
 			System.out.println("Status code: "+scode);
 			
 			String data=resp.asPrettyString();
