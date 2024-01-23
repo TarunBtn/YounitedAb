@@ -14,6 +14,8 @@ public class TextkrSkillsLookup {
 	  @Test	
 	  public void SkillsLookup() {
 			
+		    String baseUrl="https://younited-management-payment-pro.nowonline.nl/SkillsLookup";
+		  
 			RequestSpecification request=RestAssured.given();
 			request.header("content-type", "application/json");
 			request.header("APIKey", "052dc90b-9620-4dee-b464-c39b46cc0de4");
@@ -78,7 +80,7 @@ public class TextkrSkillsLookup {
 	        
 			request.body(jsonString);
 			
-			Response resp=request.post("https://younited-management-payment-pro.nowonline.nl/SkillsLookup");
+			Response resp=request.post(baseUrl);
 			int scode=resp.getStatusCode();
 			System.out.println("Status code: "+scode);
 			
