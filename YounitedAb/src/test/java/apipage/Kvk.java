@@ -20,13 +20,13 @@ public class Kvk {
 		request.header("APIKey", "052dc90b-9620-4dee-b464-c39b46cc0de4");
 		
 		JSONObject json=new JSONObject();
-		json.put("key", "62153595");
+		json.put("key", "621535958");
 		
 		request.body(json.toJSONString());
 		
 		Response response=request.post("https://younited-management-payment-pro.nowonline.nl/ValidateKvknummer");
 		
-		//int code=response.getStatusCode();
+		int code=response.getStatusCode();
 		System.out.println("Kvk- Status code is: "+code);
 		
 		Assert.assertEquals(code, 200);
