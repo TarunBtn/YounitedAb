@@ -20,10 +20,10 @@ public class Kvk {
 		request.header("Content-Type", "application/json");
 		request.header("APIKey", "052dc90b-9620-4dee-b464-c39b46cc0de4");
 		
-		JSONObject json=new JSONObject();
-		json.put("key", "62153595");
-		
-		request.body(json.toJSONString());
+		//JSONObject json=new JSONObject();
+		//json.put("key", "62153595");
+		request.body("{\"key\": \"62153595\"}");
+		//request.body(json.toJSONString());
 		
 		Response response=request.post(baseUrl);
 		int code=response.getStatusCode();
