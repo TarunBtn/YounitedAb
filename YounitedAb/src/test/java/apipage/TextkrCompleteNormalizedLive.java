@@ -11,8 +11,9 @@ public class TextkrCompleteNormalizedLive {
 	
 	public void completeNormalized() {
 		
-		RequestSpecification request=RestAssured.given();
+		String baseUrl="https://younited-management-payment-pro.nowonline.nl/CompleteNormalized";
 		
+		RequestSpecification request=RestAssured.given();
 		request.header("Content-Type", "application/json");
 		request.header("APIKey", "052dc90b-9620-4dee-b464-c39b46cc0de4");
 		
@@ -23,7 +24,7 @@ public class TextkrCompleteNormalizedLive {
 		
 		//request.body(json.toJSONString());
 		
-		Response response=request.post("https://younited-management-payment-pro.nowonline.nl/CompleteNormalized");
+		Response response=request.post(baseUrl);
 		int statusCode=response.getStatusCode();
 		Assert.assertEquals(statusCode, 200);
 		System.out.println("Textkr-Status code is-" +statusCode);

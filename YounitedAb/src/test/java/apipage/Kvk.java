@@ -14,8 +14,9 @@ public class Kvk {
 	@Test
     public void validateKvkNumber() {
 		
-		RequestSpecification request=RestAssured.given();
+		String baseUrl="https://younited-management-payment-pro.nowonline.nl/ValidateKvknummer";
 		
+		RequestSpecification request=RestAssured.given();
 		request.header("Content-Type", "application/json");
 		request.header("APIKey", "052dc90b-9620-4dee-b464-c39b46cc0de4");
 		
@@ -24,8 +25,7 @@ public class Kvk {
 		
 		request.body(json.toJSONString());
 		
-		Response response=request.post("https://younited-management-payment-pro.nowonline.nl/ValidateKvknummer");
-		
+		Response response=request.post(baseUrl);
 		int code=response.getStatusCode();
 		System.out.println("Kvk- Status code is: "+code);
 		

@@ -14,8 +14,9 @@ public class TextkrProfnCompleteNormalized {
 	  @Test	
 	  public void professionsCompleteNormalized() {
 			
+		    String baseUrl="https://younited-management-payment-pro.nowonline.nl/ProfessionsCompleteNormalized";  
+		  
 	        RequestSpecification request=RestAssured.given();
-			
 			request.header("Content-Type", "application/json");
 			request.header("APIKey", "052dc90b-9620-4dee-b464-c39b46cc0de4");
 			
@@ -29,8 +30,7 @@ public class TextkrProfnCompleteNormalized {
 			
 			//request.body(json.toJSONString());
 			
-			Response response=request.post("https://younited-management-payment-pro.nowonline.nl/ProfessionsCompleteNormalized");
-			
+			Response response=request.post(baseUrl);
 			int code=response.getStatusCode();
 			System.out.println("TextKernel- Status code is: "+code);
 			

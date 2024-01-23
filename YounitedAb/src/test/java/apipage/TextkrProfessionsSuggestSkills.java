@@ -13,6 +13,8 @@ public class TextkrProfessionsSuggestSkills {
 	   @Test	
 	   public void ProfessionsSuggestSkills() {
 			
+		    String baseUrl="https://younited-management-payment-pro.nowonline.nl/ProfessionsSuggestSkills?limit=15";
+		    
 			RequestSpecification request=RestAssured.given();
 			request.header("Content-Type", "application/json");
 			request.header("APIKey", "052dc90b-9620-4dee-b464-c39b46cc0de4");
@@ -32,7 +34,7 @@ public class TextkrProfessionsSuggestSkills {
 	        // Specify the content type as JSON
 	        //request.contentType("application/json");
 			
-			Response response=request.post("https://younited-management-payment-pro.nowonline.nl/ProfessionsSuggestSkills?limit=15");
+			Response response=request.post(baseUrl);
 			int scode=response.getStatusCode();
 			System.out.println("Status code: "+scode);
 			Assert.assertEquals(scode, 200);

@@ -18,8 +18,7 @@ public class TextkrMatchExtractDo {
 	      String publicURL = "https://usgmarcom.nl/vacature/marketingcommunicatie-adviseur-medior-(v2075660)";
 	      
 	      // Creating request specification
-	      RequestSpecification request = RestAssured.given();
-	                  
+	      RequestSpecification request = RestAssured.given();        
 	      request.header("APIKey", "052dc90b-9620-4dee-b464-c39b46cc0de4");
 	      //request.header("Content-Type", "application/json");
 	      //Adding form data to the request
