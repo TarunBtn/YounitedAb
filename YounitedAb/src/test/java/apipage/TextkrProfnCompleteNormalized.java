@@ -10,7 +10,6 @@ import junit.framework.Assert;
 
 public class TextkrProfnCompleteNormalized {
 	
-	  @SuppressWarnings("unchecked")
 	  @Test	
 	  public void professionsCompleteNormalized() {
 			

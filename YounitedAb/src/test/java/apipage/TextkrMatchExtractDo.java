@@ -8,7 +8,6 @@ import io.restassured.specification.RequestSpecification;
 
 public class TextkrMatchExtractDo {
 
-	  @SuppressWarnings("unchecked")
 	  @Test	
 	  public void MatchExtractDo()throws Exception {
 			  

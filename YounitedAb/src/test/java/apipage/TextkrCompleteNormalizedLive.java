@@ -1,6 +1,7 @@
 package apipage;
 
 import org.json.simple.JSONObject;
+import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -9,6 +10,7 @@ import junit.framework.Assert;
 
 public class TextkrCompleteNormalizedLive {
 	
+	@Test
 	public void completeNormalized() {
 		
 		String baseUrl="https://younited-management-payment-pro.nowonline.nl/CompleteNormalized";

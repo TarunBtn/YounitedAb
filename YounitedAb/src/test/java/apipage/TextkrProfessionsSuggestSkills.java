@@ -9,7 +9,6 @@ import io.restassured.specification.RequestSpecification;
 
 public class TextkrProfessionsSuggestSkills {
 	
-	   @SuppressWarnings("unchecked")
 	   @Test	
 	   public void ProfessionsSuggestSkills() {
 			

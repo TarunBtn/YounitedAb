@@ -10,7 +10,6 @@ import junit.framework.Assert;
 
 public class Kvk {
 
-	@SuppressWarnings("unchecked")
 	@Test
     public void validateKvkNumber() {
 		

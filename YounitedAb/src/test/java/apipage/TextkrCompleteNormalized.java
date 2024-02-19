@@ -9,7 +9,6 @@ import junit.framework.Assert;
 
 public class TextkrCompleteNormalized {
 	
-	@SuppressWarnings("unchecked")
 	  @Test	
 	  public void completeNormalized() {
 			

@@ -10,7 +10,6 @@ import io.restassured.specification.RequestSpecification;
 
 public class TextkrSkillsLookup {
 	
-	  @SuppressWarnings("unchecked")
 	  @Test	
 	  public void SkillsLookup() {
 			
