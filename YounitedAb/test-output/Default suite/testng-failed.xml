@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apipage.Kvk">
+      <class name="apipage.TextkrCompleteNormalized">
         <methods>
-          <include name="validateKvkNumber"/>
+          <include name="completeNormalized"/>
         </methods>
-      </class> <!-- apipage.Kvk -->
+      </class> <!-- apipage.TextkrCompleteNormalized -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
